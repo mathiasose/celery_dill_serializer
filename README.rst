@@ -1,6 +1,13 @@
 celery_dill_serializer
 ======================
 
+Installation
+------------
+
+.. code-block:: bash
+
+    pip install celery_dill_serializer
+
 NameError when running serialized functions
 -------------------------------------------
 
