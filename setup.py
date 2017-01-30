@@ -1,7 +1,8 @@
 import os
-from distutils.core import setup
 
-VERSION = '0.1.2'
+from setuptools import setup
+
+VERSION = '0.1.3'
 
 
 def readme(*paths):
