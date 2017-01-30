@@ -1,7 +1,7 @@
 import os
 from distutils.core import setup
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 
 def readme(*paths):
@@ -23,7 +23,7 @@ setup(
     author='Mathias Ose',
     author_email='mathias.ose@gmail.com',
     url='https://github.com/mathiasose/celery_dill_serializer',
-    download_url='https://github.com/mathiasose/celery_dill_serializer/{}'.format(VERSION),
+    download_url='https://github.com/mathiasose/celery_dill_serializer/releases/tag/s{}'.format(VERSION),
     install_requires=requirements('requirements.txt'),
     keywords=['celery', 'dill', 'serialization'],
     classifiers=[
