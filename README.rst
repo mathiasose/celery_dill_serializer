@@ -4,7 +4,7 @@ celery_dill_serializer
 NameError when running serialized functions
 -------------------------------------------
 
-There are some issues with ``NameError``s when serialized functions depend on values defined outside of the scope of the ``def``.
+There are some issues with ``NameError`` when serialized functions depend on values defined outside of the scope of the ``def``.
 Try putting imports and such inside the function definition, i.e.
 
 .. code-block:: python
@@ -22,4 +22,4 @@ as opposed to
     def make_me_a_pi():
         return math.pi
         
-which would result in ``NameError: name 'math' is not defined``
+which would result in ``NameError: name 'math' is not defined``.
