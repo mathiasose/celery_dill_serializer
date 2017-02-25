@@ -8,6 +8,18 @@ Installation
 
     pip install celery_dill_serializer
 
+In your celery config file:
+
+..  code-block:: python
+
+    from celery_dill_serializer import register_dill
+    
+    register_dill()
+
+    task_serializer = 'dill'
+    result_serializer = 'dill'
+    accept_content = ['dill']
+
 NameError when running serialized functions
 -------------------------------------------
 
